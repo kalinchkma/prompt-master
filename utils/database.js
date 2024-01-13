@@ -14,8 +14,8 @@ export const connectToDB = async () => {
             dbName: 'promtopia',
             useNewUrlParser: true,
             useUnifiedTopology: true
-        })
-
+        });
+        
         isConnected = true;
         console.log("Mongodb connected");
     } catch (error) {
